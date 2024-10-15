@@ -1,5 +1,6 @@
 ---
-import Navbar from "@widgets/auth/Navbar.astro";
+import { Navbar } from "@widgets/auth";
+import { ViewTransitions } from "astro:transitions";
 ---
 
 <html lang="en">
@@ -8,6 +9,7 @@ import Navbar from "@widgets/auth/Navbar.astro";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Choi POS Admin</title>
+    <ViewTransitions />
   </head>
   <body class="bg-gray-950 grid grid-cols-12 dark">
     <section class="col-span-2 p-4">

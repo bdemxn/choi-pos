@@ -3,10 +3,17 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@layouts/*": ["./src/layouts/*"],
-      "@widgets/*": ["./src/widgets/*"],
-      "@pages/*": ["./src/pages/*"],
-
-    }
+      "@layouts/*": [
+        "./src/layouts/*"
+      ],
+      "@widgets/*": [
+        "./src/widgets/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
