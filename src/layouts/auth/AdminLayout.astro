@@ -1,0 +1,20 @@
+---
+import Navbar from "@widgets/auth/Navbar.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Choi POS Admin</title>
+  </head>
+  <body class="bg-gray-950 grid grid-cols-12 dark">
+    <section class="col-span-2 p-4">
+      <Navbar />
+    </section>
+    <section class="col-span-10">
+      <slot />
+    </section>
+  </body>
+</html>
